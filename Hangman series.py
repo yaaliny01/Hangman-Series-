@@ -1,15 +1,14 @@
-# PROJECT_3
 # HANGMAN_GAME
 
 import random
 import hangman_stages
 import word_file
-#word_list = ["apple", "beautiful", "potato"]
+
 lives = 6
 chosen_word = random.choice(word_file.words)
 print(chosen_word)
 display = []
-for i in range(len(chosen_word)): # 1 2 3 4 5
+for i in range(len(chosen_word)): 
     display += '_'
 print(display)
 game_over = False
