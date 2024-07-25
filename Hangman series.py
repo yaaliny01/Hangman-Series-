@@ -1,5 +1,3 @@
-# HANGMAN_GAME
-
 import random
 import hangman_stages
 import word_file
